@@ -15,7 +15,7 @@ I'm a **Full Stack Developer** from Hyderabad, Pakistan. I build complete web ap
 
 - 🧩 I've built an AI document automation platform, a CRM, a library management system, an AI interview practice platform and an AI student assistant.
 - 🤖 I integrate LLMs (Google Gemini, Groq) into real apps, and I design them to say "I don't know" instead of inventing answers.
-- 🎓 I'm finishing my BS in Computer Science and I'm open to **remote roles and freelance projects**.
+- 🎓 I'm finishing my BS in Computer Science and I'm open to **full-time roles (on-site, hybrid or remote)** and **freelance projects**.
 
 ## 🛠️ Tech stack
 
@@ -38,29 +38,6 @@ I'm a **Full Stack Developer** from Hyderabad, Pakistan. I build complete web ap
 ### [DocFlow: AI Document & Workflow Automation](https://github.com/bhavish-kumar/DocFlow-AI-Document-Automation)
 **An AI platform that reads invoices, purchase orders and goods receipts, checks them against each other, and sends problems to a person for review.**
 Documents are uploaded as PDFs or scans. DocFlow reads them with OCR, classifies each one with a rules + machine-learning model, and extracts header fields and line items. It then runs invoice ↔ PO ↔ GRN **3-way matching**, detects duplicate invoices and flags unusual ones, and puts anything that fails into a review queue where a person approves or rejects it. Two AI assistants answer questions: one searches the documents with citations (RAG), the other turns plain-English questions into safe, read-only SQL. All AI runs **locally**, so no document leaves the machine and no paid API key is needed. It has JWT login with roles, audit logs and 351 passing tests.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/bhavish-kumar/DocFlow-AI-Document-Automation/main/docs/screenshots/dashboard.webp" alt="DocFlow dashboard with document, invoice, review-queue, validation, anomaly, duplicate and processing-job counters" width="100%">
-</p>
-
-<table>
-  <tr>
-    <th>Validation and 3-way matching</th>
-    <th>Review queue</th>
-  </tr>
-  <tr>
-    <td align="center" valign="top"><img src="https://raw.githubusercontent.com/bhavish-kumar/DocFlow-AI-Document-Automation/main/docs/screenshots/validation.webp" alt="Invoice to PO validation results showing one match and one mismatch in subtotal, tax and total" width="360"></td>
-    <td align="center" valign="top"><img src="https://raw.githubusercontent.com/bhavish-kumar/DocFlow-AI-Document-Automation/main/docs/screenshots/review-queue.webp" alt="Review queue listing documents with reason, priority, status and approve or reject actions" width="360"></td>
-  </tr>
-  <tr>
-    <th>AI assistant: document questions (RAG)</th>
-    <th>AI assistant: business data (SQL)</th>
-  </tr>
-  <tr>
-    <td align="center" valign="top"><img src="https://raw.githubusercontent.com/bhavish-kumar/DocFlow-AI-Document-Automation/main/docs/screenshots/ai-assistant-rag.webp" alt="AI assistant answering a question about an invoice with source citations" width="360"></td>
-    <td align="center" valign="top"><img src="https://raw.githubusercontent.com/bhavish-kumar/DocFlow-AI-Document-Automation/main/docs/screenshots/ai-assistant-sql.webp" alt="AI assistant answering show invoice totals by vendor with a results table" width="360"></td>
-  </tr>
-</table>
 
 `Python` `FastAPI` `React` `PostgreSQL` `Tesseract OCR` `scikit-learn` `RAG` `JWT + RBAC`
 
@@ -138,5 +115,5 @@ A Schedule Trigger starts the check, an HTTP Request calls the website URL, and 
 
 ## 📫 Let's work together
 
-I'm available for **remote junior developer roles** and **freelance projects**, including web apps, REST APIs, dashboards and AI chatbots.
+I'm available for **junior developer roles (on-site, hybrid or remote)** and **freelance projects**, including web apps, REST APIs, dashboards and AI chatbots.
 The best way to reach me is by [email](mailto:bhavishkumar799@gmail.com) or on [LinkedIn](https://www.linkedin.com/in/bhavish-kumaar).
